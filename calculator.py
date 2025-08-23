@@ -1,4 +1,6 @@
 #mini calc
+
+#used tkinter
 import tkinter as tk
 
 class Calculator:
@@ -50,4 +52,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     calculator = Calculator(root)
     root.mainloop()
+
 
